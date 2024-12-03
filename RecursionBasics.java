@@ -7,7 +7,8 @@ public class RecursionBasics {
             return;
         }
         System.out.print(n + " ");
-        printDecNumbers(n - 1); // inner function call
+        printDecNumbers(n - 1); // inner function call // here(--n) will also work because it substract first
+                                // then call
     }
 
     public static void printIncNUmbers(int n) {
@@ -16,7 +17,7 @@ public class RecursionBasics {
 
             return;
         }
-        printIncNUmbers(n-1);
+        printIncNUmbers(n - 1);
         System.out.print(n + " ");
     }
 
