@@ -18,4 +18,4 @@ public class SortArray {
         int[] arr = { 2, 4, 6, 8, 10 };
         System.out.println(isSorted(arr, 0));  // Should print true if sorted
     }
-}
+} 
